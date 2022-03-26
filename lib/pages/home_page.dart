@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Catalog APP"),
+        title: const Text("Catalog App"),
       ),
       body: Center(
         child: Text("$days days of flutter by $name"),
